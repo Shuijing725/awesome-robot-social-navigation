@@ -1,0 +1,5 @@
+.idea/
+.git
+
+# file from macos
+.DS_Store
