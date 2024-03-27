@@ -1,4 +1,4 @@
-# Awesome-robot-social-navigation
+# Awesome Robot Social Navigation
 This repo keeps track of the historical and recent advances in robot social navigation/crowd navigation/navigation in dynamic or human environments.
 
 - **I'm actively developing this list, if you would like to contribute or spot any error, please open a pull request!**
