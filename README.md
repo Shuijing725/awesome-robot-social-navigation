@@ -19,6 +19,7 @@ This repo keeps track of the historical and recent advances in robot social navi
 ## Surveys
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
 - [A Survey on Socially Aware Robot Navigation: Taxonomy and Future Challenges](https://arxiv.org/abs/2311.06922), IJRR 2024.
+- [Conflict Avoidance in Social Navigation—a Survey](https://dl.acm.org/doi/full/10.1145/3647983), THRI 2024.
 
 ## Datasets and Benchmarks
 ### Real-world Datasets
@@ -40,6 +41,14 @@ This repo keeps track of the historical and recent advances in robot social navi
 
 ## Methods
 ### Model-based Methods
+#### Velocity obstacle approaches
+- RVO, ORCA:
+  - [Reciprocal Velocity Obstacles for Real-Time Multi-Agent Navigation](https://gamma.cs.unc.edu/RVO/), ICRA 2008.
+  - [Optimal Reciprocal Collision Avoidance for Multi-Agent Navigation](https://emotion.inrialpes.fr/fraichard/safety2010/10-vandenberg-etal-icraw.pdf), ICRA 2010.
+  - [Reciprocal n-Body Collision Avoidance](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0595d16fca09a3979ccd2222b094e4b72755e780), Robotics Research 2011.
+  - [The Hybrid Reciprocal Velocity Obstacle](https://gamma.cs.unc.edu/HRVO/), T-RO 2011.
+
+#### Force-based approaches
 ### Learning-based Methods
 #### Supervised Learning
 #### Reinforcement Learning
