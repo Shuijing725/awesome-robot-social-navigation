@@ -15,6 +15,9 @@ This repo keeps track of the historical and recent advances in robot social navi
     + [Learning-based Methods](#learning-based-methods)
       - [Supervised Learning](#supervised-learning)
       - [Reinforcement Learning](#reinforcement-learning)
+  * [Pedestrian Behavior Modeling](#human-behavior-modelling)
+  * [User studies](#user-studies)
+
 
 ## Surveys
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
@@ -36,6 +39,8 @@ This repo keeps track of the historical and recent advances in robot social navi
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
 
 ### Simulated Datasets and Benchmarks
+**Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
+- [CrowdNav](https://github.com/vita-epfl/CrowdNav).
 - [SocNav1: A Dataset to Benchmark and Learn Social Navigation Conventions](https://github.com/gnns4hri/SocNav1), MDPI 2019.
 - [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://github.com/CMU-TBD/SocNavBench), THRI 2022.
 - [Pedsim-ROS](https://github.com/srl-freiburg/pedsim_ros).
@@ -53,8 +58,32 @@ This repo keeps track of the historical and recent advances in robot social navi
 - (TEB) [Time Elastic Band Planner](https://wiki.ros.org/teb_local_planner), paper series 2012-2017.
 
 #### MPC
-#### Others
+- [Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds](https://arxiv.org/abs/2403.05081), ICRA 2024.
+
+#### Force-based Methods
 - (Social Force) [Social Force Model for Pedestrian Dynamics](https://arxiv.org/abs/cond-mat/9805244), Physics Review 1995.
+
+#### Game Theory
+- [Mixed-Strategy Nash Equilibrium for Crowd Navigation](https://arxiv.org/abs/2403.01537), arXiv 2024.
+
 ### Learning-based Methods
+
 #### Supervised Learning
 #### Reinforcement Learning
+- Combining human trajectory prediction and robot planning
+  - (RGL) [Relational Graph Learning for Crowd Navigation](https://arxiv.org/abs/1909.13165), IROS 2020.
+  - [DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors](https://arxiv.org/abs/2002.03038), ICRA 2020.
+  - [Socially Aware Crowd Navigation with Multimodal Pedestrian Trajectory Prediction for Autonomous Vehicles](https://arxiv.org/abs/2011.11191), ITSC 2020.
+  - [Intent-Aware Pedestrian Prediction for Adaptive Crowd Navigation](https://intuitivecomputing.github.io/publications/2020-icra-katyal.pdf), ICRA 2020.
+  - [Path Planning in Dynamic Environments using Generative RNNs and Monte Carlo Tree Search](https://arxiv.org/abs/2001.11597), ICRA 2020.
+  - [Mobile Robot Navigation Using Learning-Based Method Based on Predictive State Representation in a Dynamic Environment](https://robotics.ait.kyushu-u.ac.jp/kurazume/papers/MatsumotoSII22.pdf), IEEE SII 2022.
+  - [ntention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home), ICRA 2023.
+  - [Stranger Danger! Identifying and Avoiding Unpredictable Pedestrians in RL-based Social Robot Navigation](https://people.eecs.berkeley.edu/~prabal/pubs/papers/pohland24stranger.pdf), arXiv 2024. 
+
+
+## Pedestrian Behavior Modelling
+**Review**: [A review on crowd simulation and modeling](https://www.sciencedirect.com/science/article/abs/pii/S1524070320300242), Graphical Models 2020.
+- [Modeling Cooperative Navigation in Dense Human Crowds](https://arxiv.org/abs/1705.06201), ICRA 2017.
+
+## User Studies
+- [How Do Robot Experts Measure the Success of Social Robot Navigation?](https://dl.acm.org/doi/10.1145/3610978.3640636), HRI 2024.
