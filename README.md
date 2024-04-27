@@ -65,6 +65,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Reciprocal n-Body Collision Avoidance](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=0595d16fca09a3979ccd2222b094e4b72755e780), Robotics Research 2011.
 - [The Hybrid Reciprocal Velocity Obstacle](https://gamma.cs.unc.edu/HRVO/), T-RO 2011.
 - [V-RVO: Decentralized Multi-Agent Collision Avoidance using Voronoi Diagrams and Reciprocal Velocity Obstacles](https://arxiv.org/abs/2102.13281), IROS 2021.
+- ORCA for non-holonomic robots:
+  - (ORCA-DD) [Smooth and Collision-Free Navigation for Multiple Robots Under Differential-Drive Constraints](https://gamma.cs.unc.edu/ORCA-DD/), IROS 2010. 
+  - (Non-holomomic ORCA) [Optimal Reciprocal Collision Avoidance for Multiple Non-Holonomic Robots](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/63793/eth-7722-01.pdf?sequence=1), Distributed Autonomous Robotic Systems 2013.
 
 #### [ROS navigation stack](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf)
 - (DWA) [The Dynamic Window Approach to Collision Avoidance](https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf), Robotics and Automation Magazine 1997.
