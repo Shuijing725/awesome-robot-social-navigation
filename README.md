@@ -3,6 +3,7 @@ This repo keeps track of the historical and recent advances in robot social navi
 
 - **I'm actively developing this list, if you would like to contribute or spot any error, please open a pull request!**
 - For viewers' convenience, the links of papers first prioritize their websites, and then the free preprints if they are publicly available. 
+- Some papers belong to more than one category, I only link them on their first appearance. 
 
 ------
 ## Table of Content
@@ -20,9 +21,11 @@ This repo keeps track of the historical and recent advances in robot social navi
 
 ------
 ## Surveys
+- [Human-aware robot navigation: A survey](https://www.sciencedirect.com/science/article/abs/pii/S0921889013001048), Robotics and Autonomous Systems 2013.
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
 - [A Survey on Socially Aware Robot Navigation: Taxonomy and Future Challenges](https://arxiv.org/abs/2311.06922), IJRR 2024.
 - [Conflict Avoidance in Social Navigation—a Survey](https://dl.acm.org/doi/full/10.1145/3647983), THRI 2024.
+- [Characterizing the Complexity of Social Robot Navigation Scenarios](https://arxiv.org/abs/2405.11410), arXiv 2024.
 
 ------
 ## Datasets and Benchmarks
@@ -53,6 +56,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [AI Habitat 3.0](https://aihabitat.org/habitat3/)
   - [iGibson](https://github.com/StanfordVL/iGibsonChallenge2021)
   - [gym_ped_sim](https://github.com/onlytailei/gym_ped_sim)
+  - [Social Environment for Autonomous Navigation (SEAN) 2.0](https://sean.interactive-machines.com/)
 
 ------
 ## Methods
@@ -90,6 +94,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Gaussian Mixture Models (GMM)
 - [Socially-Aware Navigation Planner Using Models of Human-Human Interaction](https://rrl.cse.unr.edu/media/documents/2017/sebastian-SAN-ROMAN.pdf), RO-MAN 2017.
 
+#### Topological braids
+- [Social Momentum: Design and Evaluation of a Framework for Socially Competent Robot Navigation](https://dl.acm.org/doi/10.1145/3495244), THRI 2022.
+
 ### Learning-based Methods
 
 #### Supervised Learning
@@ -100,6 +107,12 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Reinforcement Learning
 - Using detected pedestrian states as input
+  - (CADRL) [Decentralized noncommunicating multiagent collision avoidance with deep reinforcement learning](https://arxiv.org/abs/1609.07845), ICRA 2017.
+  - [Socially aware motion planning with deep reinforcement learning](https://arxiv.org/abs/1703.08862), IROS 2017.
+  - (LSTM-RL) [Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning](https://arxiv.org/abs/1805.01956), IROS 2018.
+  - (OM-SARL) [Crowd-robot interaction: Crowd-aware robot navigation with attention-based deep reinforcement learning](https://arxiv.org/abs/1809.08835), ICRA 2019.
+  - [Robot Navigation in Crowds by Graph Convolutional Networks with Attention Learned from Human Gaze](https://arxiv.org/abs/1909.10400), RA-L 2020.
+  - [Decentralized structural-RNN for robot crowd navigation with deep reinforcement learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home), ICRA 2021.
 - Using raw sensor data as input
   - [Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning](https://arxiv.org/abs/1709.10082), ICRA 2018.
   - [Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Navigation in Complex Scenarios](https://sites.google.com/view/hybridmrca), IJRR 2020.
@@ -115,7 +128,17 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [Mobile Robot Navigation Using Learning-Based Method Based on Predictive State Representation in a Dynamic Environment](https://robotics.ait.kyushu-u.ac.jp/kurazume/papers/MatsumotoSII22.pdf), IEEE SII 2022.
   - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home), ICRA 2023.
   - [Stranger Danger! Identifying and Avoiding Unpredictable Pedestrians in RL-based Social Robot Navigation](https://people.eecs.berkeley.edu/~prabal/pubs/papers/pohland24stranger.pdf), arXiv 2024. 
-
+- Constrained crowd navigation with both humans and obstacles
+  - [Robot Navigation in Crowded Environments Using Deep Reinforcement Learning](https://ras.papercept.net/images/temp/IROS/files/0386.pdf), IROS 2020. 
+  - DenseCAvoid, ICRA 2020.
+  - Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning, ICRA 2021.
+  - [NavRep: Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/abs/2012.04406), ICRA 2021.
+  - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
+- Reward function design
+  - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
+  - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
+  - DRL-VO, T-RO 2023.
+  - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
 
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
@@ -125,13 +148,15 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ### Pedestrian Behavior Modeling
 **Review**: [A review on crowd simulation and modeling](https://www.sciencedirect.com/science/article/abs/pii/S1524070320300242), Graphical Models 2020.
 - [Modeling Cooperative Navigation in Dense Human Crowds](https://arxiv.org/abs/1705.06201), ICRA 2017.
+- [From Crowd Simulation to Robot Navigation in Crowds](https://inria.hal.science/hal-02461493/file/root.pdf), RA-L 2020.
 
-### Dynamic Map Generation
+### Map Generation of Dynamic Scenes
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
 
 ------
 ## User Studies
+- Social Momentum, THRI 2022.
 - [How Do Robot Experts Measure the Success of Social Robot Navigation?](https://dl.acm.org/doi/10.1145/3610978.3640636), HRI 2024.
 
 ------
