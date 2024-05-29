@@ -1,4 +1,5 @@
 # Awesome Robot Social Navigation [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 This repo keeps track of the historical and recent advances in robot social navigation/crowd navigation/navigation in dynamic or human environments.
 
 - **I'm actively developing this list, if you would like to contribute or spot any error, please open a pull request!**
@@ -16,8 +17,8 @@ This repo keeps track of the historical and recent advances in robot social navi
     + [Learning-based Methods](#learning-based-methods)
       - [Supervised Learning](#supervised-learning)
       - [Reinforcement Learning](#reinforcement-learning)
-  * [Pedestrian Behavior Modeling](#human-behavior-modelling)
-  * [User studies](#user-studies)
+  * [Environment Models](#environment-models)
+  * [User Studies](#user-studies)
 
 ------
 ## Surveys
@@ -94,7 +95,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Gaussian Mixture Models (GMM)
 - [Socially-Aware Navigation Planner Using Models of Human-Human Interaction](https://rrl.cse.unr.edu/media/documents/2017/sebastian-SAN-ROMAN.pdf), RO-MAN 2017.
 
-#### Topological braids
+#### Topological Braids
 - [Social Momentum: Design and Evaluation of a Framework for Socially Competent Robot Navigation](https://dl.acm.org/doi/10.1145/3495244), THRI 2022.
 
 ### Learning-based Methods
