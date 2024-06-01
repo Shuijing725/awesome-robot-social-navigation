@@ -49,6 +49,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 - 2D simulators
   - [CrowdNav](https://github.com/vita-epfl/CrowdNav)
+    - Extension with static obstacles, SFM human agents, and [Stable Baselines 3](https://stable-baselines3.readthedocs.io/en/master/) support: [CrowdSimPlus](https://github.com/sepsamavi/safe-interactive-crowdnav?tab=readme-ov-file#crowdsimplus-simulator).
   - [SocNav1: A Dataset to Benchmark and Learn Social Navigation Conventions](https://github.com/gnns4hri/SocNav1), MDPI 2019.
   - [SocNav2](https://github.com/jginesclavero/social_nav2)
   - [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://github.com/CMU-TBD/SocNavBench), THRI 2022.
@@ -97,6 +98,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Topological Braids
 - [Social Momentum: Design and Evaluation of a Framework for Socially Competent Robot Navigation](https://dl.acm.org/doi/10.1145/3495244), THRI 2022.
+
+#### Bilevel Optimization 
+- [SICNav: Safe and Interactive Crowd Navigation Using Model Predictive Control and Bilevel Optimization](http://sepehr.fyi/projects/sicnav/), arXiv 2023.
 
 ### Learning-based Methods
 
