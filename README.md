@@ -105,6 +105,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning](https://arxiv.org/abs/1710.02543), ICRA 2018.
 - [Deep local trajectory replanning and control for robot navigation](https://arxiv.org/abs/1905.05279), ICRA 2019.
 - [Towards Safe Navigation Through Crowded Dynamic Environments](https://sites.temple.edu/trail/files/2021/11/XieXinDamesIROS2021.pdf), IROS 2021.
+- [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 
 #### Reinforcement Learning
 - Using detected pedestrian states as input
