@@ -59,6 +59,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [iGibson](https://github.com/StanfordVL/iGibsonChallenge2021)
   - [gym_ped_sim](https://github.com/onlytailei/gym_ped_sim)
   - [Social Environment for Autonomous Navigation (SEAN) 2.0](https://sean.interactive-machines.com/)
+  - [Arena-Rosnav 3.0: A Comprehensive Development and Benchmarking Platform for Navigation](https://github.com/Arena-Rosnav)
 
 ------
 ## Methods
