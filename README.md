@@ -86,6 +86,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Collision Avoidance in Tightly-Constrained Environments without Coordination: a Hierarchical Control Approach](https://sites.google.com/berkeley.edu/sg-control), ICRA 2021.
 - [Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds](https://arxiv.org/abs/2403.05081), ICRA 2024.
 - [SICNav: Safe and Interactive Crowd Navigation Using Model Predictive Control and Bilevel Optimization](http://sepehr.fyi/projects/sicnav/), arXiv 2023.
+- [Multi-Robot Cooperative Navigation in Crowds: A Game-Theoretic Learning-Based Model Predictive Control Approach](https://arxiv.org/abs/2310.06964), ICRA 2024.
 
 #### Potential Field & Force-based Methods
 - (Social Force) [Social Force Model for Pedestrian Dynamics](https://arxiv.org/abs/cond-mat/9805244), Physics Review 1995.
@@ -147,6 +148,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
+- [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 
 ------
 ## Environment Models
