@@ -43,6 +43,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [THOR and THOR-Magni](http://thor.oru.se/), RA-L 2020 and arXiv 2022.
 - (SCAND) [Socially CompliAnt Navigation Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), RA-L 2022.
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
+- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024. 
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
@@ -140,6 +141,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning, ICRA 2021.
   - [NavRep: Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/abs/2012.04406), ICRA 2021.
   - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
+  - [Sample-Efficient Learning-Based Dynamic Environment Navigation With Transferring Experience From Optimization-Based Planner](https://ieeexplore.ieee.org/document/10552894), RA-L 2024.
 - Reward function design
   - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
