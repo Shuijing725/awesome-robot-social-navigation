@@ -44,6 +44,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [THOR and THOR-Magni](http://thor.oru.se/), RA-L 2020 and arXiv 2022.
 - (SCAND) [Socially CompliAnt Navigation Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), RA-L 2022.
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
+- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024. 
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
@@ -60,6 +61,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [iGibson](https://github.com/StanfordVL/iGibsonChallenge2021)
   - [gym_ped_sim](https://github.com/onlytailei/gym_ped_sim)
   - [Social Environment for Autonomous Navigation (SEAN) 2.0](https://sean.interactive-machines.com/)
+  - [Arena-Rosnav 3.0: A Comprehensive Development and Benchmarking Platform for Navigation](https://github.com/Arena-Rosnav), RSS2024.
 
 ------
 ## Methods
@@ -83,10 +85,12 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Model Predictive Control (MPC)
 - [Model Predictive Contouring Control for Collision Avoidance in Unstructured Dynamic Environments](https://github.com/tud-amr/amr-lmpcc), RA-L 2019.
+- [Anticipatory Navigation in Crowds by Probabilistic Prediction of Pedestrian Future Movements](https://ieeexplore.ieee.org/document/9561022), ICRA 2021.
 - [Collision Avoidance in Tightly-Constrained Environments without Coordination: a Hierarchical Control Approach](https://sites.google.com/berkeley.edu/sg-control), ICRA 2021.
 - [Group-based Motion Prediction for Navigation in Crowded Environments](https://proceedings.mlr.press/v164/wang22e.html), CoRL 2021.
 - [Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds](https://arxiv.org/abs/2403.05081), ICRA 2024.
 - [SICNav: Safe and Interactive Crowd Navigation Using Model Predictive Control and Bilevel Optimization](http://sepehr.fyi/projects/sicnav/), arXiv 2023.
+- [Multi-Robot Cooperative Navigation in Crowds: A Game-Theoretic Learning-Based Model Predictive Control Approach](https://arxiv.org/abs/2310.06964), ICRA 2024.
 
 #### Potential Field & Force-based Methods
 - (Social Force) [Social Force Model for Pedestrian Dynamics](https://arxiv.org/abs/cond-mat/9805244), Physics Review 1995.
@@ -141,6 +145,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning, ICRA 2021.
   - [NavRep: Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/abs/2012.04406), ICRA 2021.
   - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
+  - [Sample-Efficient Learning-Based Dynamic Environment Navigation With Transferring Experience From Optimization-Based Planner](https://ieeexplore.ieee.org/document/10552894), RA-L 2024.
 - Reward function design
   - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
@@ -149,6 +154,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
+- [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 
 ------
 ## Environment Models
