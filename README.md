@@ -162,9 +162,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 **Review**: [A review on crowd simulation and modeling](https://www.sciencedirect.com/science/article/abs/pii/S1524070320300242), Graphical Models 2020.
 - [Modeling Cooperative Navigation in Dense Human Crowds](https://arxiv.org/abs/1705.06201), ICRA 2017.
 - [From Crowd Simulation to Robot Navigation in Crowds](https://inria.hal.science/hal-02461493/file/root.pdf), RA-L 2020.
+- [Group Split and Merge Prediction With 3D Convolutional Networks](https://ieeexplore.ieee.org/abstract/document/8972421), RA-L 2020.
 
 ### Map Generation of Dynamic Scenes
-- [Group Split and Merge Prediction With 3D Convolutional Networks](https://ieeexplore.ieee.org/abstract/document/8972421), RA-L 2020.
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
 
