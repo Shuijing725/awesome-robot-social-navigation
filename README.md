@@ -19,6 +19,7 @@ This repo keeps track of the historical and recent advances in robot social navi
       - [Reinforcement Learning](#reinforcement-learning)
   * [Environment Models](#environment-models)
   * [User Studies](#user-studies)
+  * [Recent Workshops](#workshops)
 
 ------
 ## Surveys
@@ -83,6 +84,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Model Predictive Control (MPC)
 - [Model Predictive Contouring Control for Collision Avoidance in Unstructured Dynamic Environments](https://github.com/tud-amr/amr-lmpcc), RA-L 2019.
 - [Collision Avoidance in Tightly-Constrained Environments without Coordination: a Hierarchical Control Approach](https://sites.google.com/berkeley.edu/sg-control), ICRA 2021.
+- [Group-based Motion Prediction for Navigation in Crowded Environments](https://proceedings.mlr.press/v164/wang22e.html), CoRL 2021.
 - [Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds](https://arxiv.org/abs/2403.05081), ICRA 2024.
 - [SICNav: Safe and Interactive Crowd Navigation Using Model Predictive Control and Bilevel Optimization](http://sepehr.fyi/projects/sicnav/), arXiv 2023.
 
@@ -108,6 +110,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Deep local trajectory replanning and control for robot navigation](https://arxiv.org/abs/1905.05279), ICRA 2019.
 - [Towards Safe Navigation Through Crowded Dynamic Environments](https://sites.temple.edu/trail/files/2021/11/XieXinDamesIROS2021.pdf), IROS 2021.
 - [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
+- [SACSoN: Scalable Autonomous Control for Social Navigation](https://sites.google.com/view/SACSoN-review), RA-L 2023.
 
 #### Reinforcement Learning
 - Using detected pedestrian states as input
@@ -155,6 +158,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [From Crowd Simulation to Robot Navigation in Crowds](https://inria.hal.science/hal-02461493/file/root.pdf), RA-L 2020.
 
 ### Map Generation of Dynamic Scenes
+- [Group Split and Merge Prediction With 3D Convolutional Networks](https://ieeexplore.ieee.org/abstract/document/8972421), RA-L 2020.
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
 
@@ -162,6 +166,13 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ## User Studies
 - Social Momentum, THRI 2022.
 - [How Do Robot Experts Measure the Success of Social Robot Navigation?](https://dl.acm.org/doi/10.1145/3610978.3640636), HRI 2024.
+
+------
+## Workshops
+- [Social Robot Navigation: Advances and Evaluation](https://seanavbench.interactive-machines.com/), ICRA 2022.
+- [The 2nd Workshop on Social Robot Navigation: Advances and Evaluation](https://seanavbench23.pages.dev/), IROS 2023.
+- [The Last-Mile Robotics Workshop: Envisioning Effective, Sustainable and Human-Centric Delivery](https://www.lastmilerobotics.dfl.ae/), IROS 2023.
+- [Unsolved Problems in Social Robot Navigation](https://unsolvedsocialnav.org/), RSS 2024.
 
 ------
 ## References
