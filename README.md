@@ -25,8 +25,10 @@ This repo keeps track of the historical and recent advances in robot social navi
 ## Surveys
 - [Human-aware robot navigation: A survey](https://www.sciencedirect.com/science/article/abs/pii/S0921889013001048), Robotics and Autonomous Systems 2013.
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
+- [Principles and guidelines for evaluating social robot navigation algorithms](https://arxiv.org/pdf/2306.16740), arXiv 2023.
 - [A Survey on Socially Aware Robot Navigation: Taxonomy and Future Challenges](https://arxiv.org/abs/2311.06922), IJRR 2024.
 - [Conflict Avoidance in Social Navigation—a Survey](https://dl.acm.org/doi/full/10.1145/3647983), THRI 2024.
+- [Bridging Requirements, Planning, and Evaluation: A Review of Social Robot Navigation](https://www.mdpi.com/1424-8220/24/9/2794), Sensors 2024.
 - [Characterizing the Complexity of Social Robot Navigation Scenarios](https://arxiv.org/abs/2405.11410), arXiv 2024.
 
 ------
@@ -61,8 +63,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [iGibson](https://github.com/StanfordVL/iGibsonChallenge2021)
   - [gym_ped_sim](https://github.com/onlytailei/gym_ped_sim)
   - [Social Environment for Autonomous Navigation (SEAN) 2.0](https://sean.interactive-machines.com/)
-  - [Arena-Rosnav 3.0: A Comprehensive Development and Benchmarking Platform for Navigation](https://github.com/Arena-Rosnav), RSS2024.
-
+  - [HuNavSim: A ROS 2 Human Navigation Simulator for Benchmarking Human-Aware Robot Navigation](https://arxiv.org/pdf/2305.01303), RAL 2023.
+  - [Arena-Rosnav 3.0: A Comprehensive Development and Benchmarking Platform for Navigation](https://github.com/Arena-Rosnav), RSS 2024.
+  - [Arena 4.0: A Comprehensive ROS2 Development and Benchmarking Platform for Human-centric Navigation Using Generative-Model-based Environment Generation](https://arxiv.org/pdf/2409.12471), arXiv 2024.
 ------
 ## Methods
 ### Model-based Methods
@@ -115,6 +118,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Towards Safe Navigation Through Crowded Dynamic Environments](https://sites.temple.edu/trail/files/2021/11/XieXinDamesIROS2021.pdf), IROS 2021.
 - [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 - [SACSoN: Scalable Autonomous Control for Social Navigation](https://sites.google.com/view/SACSoN-review), RA-L 2023.
+- [SocialGAIL: Faithful Crowd Simulation for Social Robot Navigation](https://ieeexplore.ieee.org/document/10610371), ICRA 2024.
 
 #### Reinforcement Learning
 - Using detected pedestrian states as input
@@ -155,7 +159,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
-
+- [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
 ------
 ## Environment Models
 ### Pedestrian Behavior Modeling
