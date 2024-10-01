@@ -17,6 +17,7 @@ This repo keeps track of the historical and recent advances in robot social navi
     + [Learning-based Methods](#learning-based-methods)
       - [Supervised Learning](#supervised-learning)
       - [Reinforcement Learning](#reinforcement-learning)
+      - [Foundation Models for Social Navigation](#foundation-models-for-social-navigation)
   * [Environment Models](#environment-models)
   * [User Studies](#user-studies)
   * [Recent Workshops](#workshops)
@@ -160,6 +161,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
+- [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
 ------
 ## Environment Models
 ### Pedestrian Behavior Modeling
@@ -187,8 +189,8 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ------
 ## References
 Part of this repo is adapted from the literature review of the following papers/repos:
-- S. Liu, P. Chang, W. Liang, N. Chakraborty, and K. Driggs-Campbell, "[Decentralized Structural-RNN for Robot Crowd Navigation with Deep Reinforcement Learning]()," in IEEE International Conference on Robotics and Automation (ICRA), 2023, pp. 3517-3524.
-- S. Liu, P. Chang, Z. Huang, N. Chakraborty, K. Hong, W. Liang, D. Livingston McPherson, J. Geng, and K. Driggs-Campbell, "[Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph]()," in IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 12015-12021.
-- H. Karnan, A. Nair, X. Xiao, G. Warnell, S. Pirk, A. Toshev, J. Hart, J. Biswas, and P. Stone, "[Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation]()," IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 11807-11814, 2022.
-- Z. Xie and P. Dames, "[DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles]()," IEEE Transactions on Robotics, vol. 39, no. 4, pp. 2700-2719, 2023.
+- S. Liu, P. Chang, W. Liang, N. Chakraborty, and K. Driggs-Campbell, "[Decentralized Structural-RNN for Robot Crowd Navigation with Deep Reinforcement Learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2023, pp. 3517-3524.
+- S. Liu, P. Chang, Z. Huang, N. Chakraborty, K. Hong, W. Liang, D. Livingston McPherson, J. Geng, and K. Driggs-Campbell, "[Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 12015-12021.
+- H. Karnan, A. Nair, X. Xiao, G. Warnell, S. Pirk, A. Toshev, J. Hart, J. Biswas, and P. Stone, "[Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html)," IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 11807-11814, 2022.
+- Z. Xie and P. Dames, "[DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav)," IEEE Transactions on Robotics, vol. 39, no. 4, pp. 2700-2719, 2023.
 - [learning-based-navigation-list](https://github.com/CUN-bjy/learning-based-navigation-papers/), Github.
