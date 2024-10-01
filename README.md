@@ -153,8 +153,8 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - Reward function design
   - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
-  - DRL-VO, T-RO 2023.
-  - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
+  - [DRL-VO](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
+  - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://arxiv.org/pdf/2203.01821), ICRA 2023.
 
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
