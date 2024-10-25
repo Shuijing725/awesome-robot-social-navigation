@@ -95,6 +95,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Integrating Predictive Motion Uncertainties with Distributionally Robust Risk-Aware Control for Safe Robot Navigation in Crowds](https://arxiv.org/abs/2403.05081), ICRA 2024.
 - [SICNav: Safe and Interactive Crowd Navigation Using Model Predictive Control and Bilevel Optimization](http://sepehr.fyi/projects/sicnav/), arXiv 2023.
 - [Multi-Robot Cooperative Navigation in Crowds: A Game-Theoretic Learning-Based Model Predictive Control Approach](https://arxiv.org/abs/2310.06964), ICRA 2024.
+- (DR-MPC) [DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation](https://arxiv.org/abs/2410.10646), arXiv 2024.
 
 #### Potential Field & Force-based Methods
 - (Social Force) [Social Force Model for Pedestrian Dynamics](https://arxiv.org/abs/cond-mat/9805244), Physics Review 1995.
@@ -129,6 +130,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - (OM-SARL) [Crowd-robot interaction: Crowd-aware robot navigation with attention-based deep reinforcement learning](https://arxiv.org/abs/1809.08835), ICRA 2019.
   - [Robot Navigation in Crowds by Graph Convolutional Networks with Attention Learned from Human Gaze](https://arxiv.org/abs/1909.10400), RA-L 2020.
   - [Decentralized structural-RNN for robot crowd navigation with deep reinforcement learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home), ICRA 2021.
+  - (DR-MPC) [DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation](https://arxiv.org/abs/2410.10646), arXiv 2024.
 - Using raw sensor data as input
   - [Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning](https://arxiv.org/abs/1709.10082), ICRA 2018.
   - [Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Navigation in Complex Scenarios](https://sites.google.com/view/hybridmrca), IJRR 2020.
