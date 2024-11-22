@@ -24,6 +24,7 @@ This repo keeps track of the historical and recent advances in robot social navi
 ------
 ## Surveys
 - [Human-aware robot navigation: A survey](https://www.sciencedirect.com/science/article/abs/pii/S0921889013001048), Robotics and Autonomous Systems 2013.
+- [Algorithms for Collision-Free Navigation of Mobile Robots in Complex Cluttered Environments: A Survey](https://scholar.archive.org/work/sqf5a5oadrgzvnk3pzmqua3o7e/access/wayback/https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ADA8F6F7E30123629A26B08DA0C79C8C/S0263574714000289a.pdf/div-class-title-algorithms-for-collision-free-navigation-of-mobile-robots-in-complex-cluttered-environments-a-survey-div.pdf), Robotica 2015.
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
 - [A Survey on Socially Aware Robot Navigation: Taxonomy and Future Challenges](https://arxiv.org/abs/2311.06922), IJRR 2024.
 - [Conflict Avoidance in Social Navigation—a Survey](https://dl.acm.org/doi/full/10.1145/3647983), THRI 2024.
@@ -105,6 +106,10 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Topological Braids
 - [Social Momentum: Design and Evaluation of a Framework for Socially Competent Robot Navigation](https://dl.acm.org/doi/10.1145/3495244), THRI 2022.
+- [Winding Through: Crowd Navigation via Topological Invariance](https://arxiv.org/abs/2109.05084), RA-L 2023.
+
+#### Miscellaneous
+- [Seeking a path through the crowd: Robot navigation in unknown dynamic environments with moving obstacles based on an integrated environment representation](https://www.sciencedirect.com/science/article/abs/pii/S0921889014000955), Robotics and Autonomous Systems 2014.
 
 ### Learning-based Methods
 
@@ -151,6 +156,11 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
   - DRL-VO, T-RO 2023.
   - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
+- Using graph transformer network to model interactions
+  - RGL, IROS 2020.
+  - DS-RNN, ICRA 2021.
+  - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
+  - [ST<sup>2</sup>: Spatial-Temporal State Transformer for Crowd-Aware Autonomous Navigation](https://ieeexplore.ieee.org/document/10007923), RA-L 2023.
 
 #### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
