@@ -82,9 +82,11 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - ORCA for non-holonomic robots:
   - (ORCA-DD) [Smooth and Collision-Free Navigation for Multiple Robots Under Differential-Drive Constraints](https://gamma.cs.unc.edu/ORCA-DD/), IROS 2010. 
   - (Non-holomomic ORCA) [Optimal Reciprocal Collision Avoidance for Multiple Non-Holonomic Robots](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/63793/eth-7722-01.pdf?sequence=1), Distributed Autonomous Robotic Systems 2013.
+- [Relaxing the Limitations of the Optimal Reciprocal Collision Avoidance Algorithm for Mobile Robots in Crowds](https://ieeexplore.ieee.org/document/10504974), RA-L 2024.
 
 #### [ROS navigation stack](http://robotics.stanford.edu/~ang/papers/icraoss09-ROS.pdf)
 - (DWA) [The Dynamic Window Approach to Collision Avoidance](https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf), Robotics and Automation Magazine 1997.
+  - [Dynamic Adaptive Dynamic Window Approach](https://ieeexplore.ieee.org/document/10530428), T-RO 2024.
 - (TEB) [Time Elastic Band Planner](https://wiki.ros.org/teb_local_planner), paper series 2012-2017.
   - (Human-aware TEB) [Human-Aware Navigation Planner for Diverse Human-Robot Contexts](https://arxiv.org/abs/2106.09971), IROS 2021.
 
@@ -109,12 +111,16 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Gaussian Mixture Models (GMM)
 - [Socially-Aware Navigation Planner Using Models of Human-Human Interaction](https://rrl.cse.unr.edu/media/documents/2017/sebastian-SAN-ROMAN.pdf), RO-MAN 2017.
 
+#### Gaussian Process
+- [Unfreezing the Robot: Navigation in Dense, Interacting Crowds](https://las.inf.ethz.ch/files/trautman10unfreezing.pdf), IROS 2010. 
+
 #### Topological Braids
 - [Social Momentum: Design and Evaluation of a Framework for Socially Competent Robot Navigation](https://dl.acm.org/doi/10.1145/3495244), THRI 2022.
 - [Winding Through: Crowd Navigation via Topological Invariance](https://arxiv.org/abs/2109.05084), RA-L 2023.
 
 #### Miscellaneous
 - [Seeking a path through the crowd: Robot navigation in unknown dynamic environments with moving obstacles based on an integrated environment representation](https://www.sciencedirect.com/science/article/abs/pii/S0921889014000955), Robotics and Autonomous Systems 2014.
+- [Avoiding Dense and Dynamic Obstacles in Enclosed Spaces: Application to Moving in Crowds](https://ieeexplore.ieee.org/document/9765824), T-RO 2022.
 
 ### Learning-based Methods
 
@@ -126,6 +132,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 - [SACSoN: Scalable Autonomous Control for Social Navigation](https://sites.google.com/view/SACSoN-review), RA-L 2023.
 - [SocialGAIL: Faithful Crowd Simulation for Social Robot Navigation](https://ieeexplore.ieee.org/document/10610371), ICRA 2024.
+- [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 
 #### Reinforcement Learning
 - Using detected pedestrian states as input
@@ -135,13 +142,16 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - (OM-SARL) [Crowd-robot interaction: Crowd-aware robot navigation with attention-based deep reinforcement learning](https://arxiv.org/abs/1809.08835), ICRA 2019.
   - [Robot Navigation in Crowds by Graph Convolutional Networks with Attention Learned from Human Gaze](https://arxiv.org/abs/1909.10400), RA-L 2020.
   - [Decentralized structural-RNN for robot crowd navigation with deep reinforcement learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home), ICRA 2021.
+  - [Occlusion-Aware Crowd Navigation Using People as Sensors](https://arxiv.org/abs/2210.00552), ICRA 2023.
   - (DR-MPC) [DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation](https://arxiv.org/abs/2410.10646), arXiv 2024.
+ 
 - Using raw sensor data as input
   - [Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning](https://arxiv.org/abs/1709.10082), ICRA 2018.
   - [Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Navigation in Complex Scenarios](https://sites.google.com/view/hybridmrca), IJRR 2020.
   - [Learning Local Planners for Human-aware Navigation in Indoor Environments](http://ras.papercept.net/images/temp/IROS/files/0122.pdf), IROS 2020.
   - [Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning](https://arxiv.org/abs/2010.08600), ICRA 2021.
   - [Towards Multi-Modal Perception-Based Navigation: A Deep Reinforcement Learning Method](https://ieeexplore.ieee.org/document/9372890), RA-L 2021.
+  - [NavDreams: Towards Camera-Only RL Navigation Among Humans](https://arxiv.org/abs/2203.12299), IROS 2022.
 - Combining human trajectory prediction and robot planning
   - (RGL) [Relational Graph Learning for Crowd Navigation](https://arxiv.org/abs/1909.13165), IROS 2020.
   - [DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors](https://arxiv.org/abs/2002.03038), ICRA 2020.
@@ -171,12 +181,25 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [DRL-VO](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
   - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://arxiv.org/pdf/2203.01821), ICRA 2023.
 
+------
+### Hybrid Approaches
+#### Model-based methods + RL
+- [Relaxing the Limitations of the Optimal Reciprocal Collision Avoidance Algorithm for Mobile Robots in Crowds](https://ieeexplore.ieee.org/document/10504974), RA-L 2024.
 
-#### Foundation Models for Social Navigation
+#### Sample-based planning + Imitation Learning
+- [Deep Local Trajectory Replanning and Control for Robot Navigation](https://arxiv.org/abs/1905.05279), ICRA 2019.
+- [Rethinking social robot navigation: Leveraging the best of two worlds](https://arxiv.org/abs/2309.13466), ICRA 2024.
+
+#### Sample-based planning + RL
+- [A Hierarchical Approach for Mobile Robot Exploration in Pedestrian Crowd](https://ieeexplore.ieee.org/document/9562274), RA-L 2022.
+
+------
+### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
 - [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
+
 ------
 ## Environment Models
 ### Pedestrian Behavior Modeling
@@ -188,6 +211,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ### Map Generation of Dynamic Scenes
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
+- [Occlusion-Aware Crowd Navigation Using People as Sensors](https://arxiv.org/abs/2210.00552), ICRA 2023.
 
 ------
 ## User Studies
@@ -204,6 +228,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ------
 ## References
 Part of this repo is adapted from the literature review of the following papers/repos:
+- S. Liu, H. Xia, F. Cheraghi Pouria, K. Hong, N. Chakraborty, and K. Driggs-Campbell, "[HEIGHT: Heterogeneous Interaction Graph Transformer for Robot Navigation in Crowded and Constrained Environments](https://sites.google.com/view/crowdnav-height/home)," arXiv 2024.
 - S. Liu, P. Chang, W. Liang, N. Chakraborty, and K. Driggs-Campbell, "[Decentralized Structural-RNN for Robot Crowd Navigation with Deep Reinforcement Learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2023, pp. 3517-3524.
 - S. Liu, P. Chang, Z. Huang, N. Chakraborty, K. Hong, W. Liang, D. Livingston McPherson, J. Geng, and K. Driggs-Campbell, "[Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 12015-12021.
 - H. Karnan, A. Nair, X. Xiao, G. Warnell, S. Pirk, A. Toshev, J. Hart, J. Biswas, and P. Stone, "[Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html)," IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 11807-11814, 2022.
