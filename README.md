@@ -17,7 +17,8 @@ This repo keeps track of the historical and recent advances in robot social navi
     + [Learning-based Methods](#learning-based-methods)
       - [Supervised Learning](#supervised-learning)
       - [Reinforcement Learning](#reinforcement-learning)
-      - [Foundation Models for Social Navigation](#foundation-models-for-social-navigation)
+    + [Hybrid Approaches](#hybrid-approaches)
+    + [Foundation Models for Social Navigation](#foundation-models-for-social-navigation)
   * [Environment Models](#environment-models)
   * [User Studies](#user-studies)
   * [Recent Workshops](#workshops)
@@ -181,7 +182,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [DRL-VO](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
   - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://arxiv.org/pdf/2203.01821), ICRA 2023.
 
-------
+
 ### Hybrid Approaches
 #### Model-based methods + RL
 - [Relaxing the Limitations of the Optimal Reciprocal Collision Avoidance Algorithm for Mobile Robots in Crowds](https://ieeexplore.ieee.org/document/10504974), RA-L 2024.
@@ -193,7 +194,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Sample-based planning + RL
 - [A Hierarchical Approach for Mobile Robot Exploration in Pedestrian Crowd](https://ieeexplore.ieee.org/document/9562274), RA-L 2022.
 
-------
+
 ### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
