@@ -49,7 +49,8 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [THOR and THOR-Magni](http://thor.oru.se/), RA-L 2020 and arXiv 2022.
 - (SCAND) [Socially CompliAnt Navigation Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), RA-L 2022.
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
-- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024. 
+- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024.
+- [Semantic2D: A Semantic Dataset for 2D Lidar Semantic Segmentation](https://arxiv.org/abs/2409.09899), arXiv 2024.
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
@@ -210,10 +211,11 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [From Crowd Simulation to Robot Navigation in Crowds](https://inria.hal.science/hal-02461493/file/root.pdf), RA-L 2020.
 - [Group Split and Merge Prediction With 3D Convolutional Networks](https://ieeexplore.ieee.org/abstract/document/8972421), RA-L 2020.
 
-### Map Generation of Dynamic Scenes
+### Map Generation and Prediction of Dynamic Scenes
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
 - [Occlusion-Aware Crowd Navigation Using People as Sensors](https://arxiv.org/abs/2210.00552), ICRA 2023.
+- [SCOPE: Stochastic Cartographic Occupancy Prediction Engine for Uncertainty-Aware Dynamic Navigation](https://arxiv.org/abs/2407.00144), arXiv 2024.
 
 ------
 ## User Studies
