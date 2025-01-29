@@ -203,6 +203,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
 - [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
+- [OLiVia-Nav: An Online Lifelong Vision Language Approach for Mobile Robot Social Navigation](https://arxiv.org/abs/2409.13675), arXiv 2024.
 
 ------
 ## Environment Models
