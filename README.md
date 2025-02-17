@@ -53,7 +53,8 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [THOR and THOR-Magni](http://thor.oru.se/), RA-L 2020 and arXiv 2022.
 - (SCAND) [Socially CompliAnt Navigation Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), RA-L 2022.
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
-- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024. 
+- [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024.
+- [Semantic2D: A Semantic Dataset for 2D Lidar Semantic Segmentation](https://arxiv.org/abs/2409.09899), arXiv 2024.
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
@@ -112,6 +113,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Game Theory
 - [Mixed-Strategy Nash Equilibrium for Crowd Navigation](https://arxiv.org/abs/2403.01537), arXiv 2024.
+- [Inferring Occluded Agent Behavior in Dynamic Games from Noise Corrupted Observations](https://arxiv.org/abs/2303.09744), RA-L 2024.
 
 #### Gaussian Mixture Models (GMM)
 - [Socially-Aware Navigation Planner Using Models of Human-Human Interaction](https://rrl.cse.unr.edu/media/documents/2017/sebastian-SAN-ROMAN.pdf), RO-MAN 2017.
@@ -176,6 +178,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - Reward function design
   - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
+  - [Reinforcement Learned Distributed Multi-Robot Navigation With Reciprocal Velocity Obstacle Shaped Rewards](https://github.com/hanruihua/rl_rvo_nav), RA-L 2022.
   - DRL-VO, T-RO 2023.
   - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
 - Using graph attention/transformer network to model interactions
@@ -205,6 +208,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
 - [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
+- [OLiVia-Nav: An Online Lifelong Vision Language Approach for Mobile Robot Social Navigation](https://arxiv.org/abs/2409.13675), arXiv 2024.
 
 ------
 ## Environment Models
@@ -219,11 +223,16 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Meta-path analysis on spatio-temporal graphs for pedestrian trajectory prediction](https://arxiv.org/abs/2202.13427), ICRA 2022.
 
 
-### Map Generation of Dynamic Scenes
-- (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
+### Dynamic Scene Modeling
+#### Occupancy map prediction
 - [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
+- [SCOPE: Stochastic Cartographic Occupancy Prediction Engine for Uncertainty-Aware Dynamic Navigation](https://arxiv.org/abs/2407.00144), arXiv 2024.
+#### Occlusion inference
 - [Occlusion-Aware Crowd Navigation Using People as Sensors](https://arxiv.org/abs/2210.00552), ICRA 2023.
 - [RMRL: Robot Navigation in Crowd Environments With Risk Map-Based Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10271559), RA-L 2024.
+- [Inferring Occluded Agent Behavior in Dynamic Games from Noise Corrupted Observations](https://arxiv.org/abs/2303.09744), RA-L 2024.
+#### Map generation
+- (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
 
 ------
 ## User Studies
