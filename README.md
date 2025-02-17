@@ -1,5 +1,6 @@
 # Awesome Robot Social Navigation 🤖🚶
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  
+
 By [Shuijing Liu](https://shuijing725.github.io/)  
 
 This repo keeps track of the historical and recent advances in robot social navigation/crowd navigation/navigation in dynamic or human environments.
