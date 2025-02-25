@@ -66,6 +66,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [SocNav1: A Dataset to Benchmark and Learn Social Navigation Conventions](https://github.com/gnns4hri/SocNav1), MDPI 2019.
   - [SocNav2](https://github.com/jginesclavero/social_nav2)
   - [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://github.com/CMU-TBD/SocNavBench), THRI 2022.
+  - [ir-sim](https://github.com/hanruihua/ir-sim): A python based light weight robot simulator for the algorithm development of robotics navigation, control, and learning.
 - 3D simulators
   - [Pedsim-ROS](https://github.com/srl-freiburg/pedsim_ros)
   - [AI Habitat 3.0](https://aihabitat.org/habitat3/)
