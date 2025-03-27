@@ -33,11 +33,11 @@ Feel Free to ⭐️ this repo for future updates 📲
 - [Human-aware robot navigation: A survey](https://www.sciencedirect.com/science/article/abs/pii/S0921889013001048), Robotics and Autonomous Systems 2013.
 - [Algorithms for Collision-Free Navigation of Mobile Robots in Complex Cluttered Environments: A Survey](https://scholar.archive.org/work/sqf5a5oadrgzvnk3pzmqua3o7e/access/wayback/https://www.cambridge.org/core/services/aop-cambridge-core/content/view/ADA8F6F7E30123629A26B08DA0C79C8C/S0263574714000289a.pdf/div-class-title-algorithms-for-collision-free-navigation-of-mobile-robots-in-complex-cluttered-environments-a-survey-div.pdf), Robotica 2015.
 - [Core Challenges of Social Robot Navigation: A Survey](https://dl.acm.org/doi/full/10.1145/3583741), THRI 2023.
-- [Principles and guidelines for evaluating social robot navigation algorithms](https://arxiv.org/pdf/2306.16740), arXiv 2023.
 - [A Survey on Socially Aware Robot Navigation: Taxonomy and Future Challenges](https://arxiv.org/abs/2311.06922), IJRR 2024.
 - [Conflict Avoidance in Social Navigation—a Survey](https://dl.acm.org/doi/full/10.1145/3647983), THRI 2024.
 - [Bridging Requirements, Planning, and Evaluation: A Review of Social Robot Navigation](https://www.mdpi.com/1424-8220/24/9/2794), Sensors 2024.
 - [Characterizing the Complexity of Social Robot Navigation Scenarios](https://arxiv.org/abs/2405.11410), arXiv 2024.
+- [Principles and guidelines for evaluating social robot navigation algorithms](https://arxiv.org/pdf/2306.16740), THRI 2025.
 
 ------
 ## Datasets and Benchmarks
