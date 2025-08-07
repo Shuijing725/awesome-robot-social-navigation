@@ -202,6 +202,9 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://arxiv.org/pdf/2203.01821), ICRA 2023.
   - [Sample-Efficient Learning-Based Dynamic Environment Navigation With Transferring Experience From Optimization-Based Planner](https://ieeexplore.ieee.org/document/10552894), RA-L 2024.
   - [Socially aware object goal navigation with heterogeneous scene representation learning](https://ieeexplore.ieee.org/document/10556584), RA-L 2024.
+ - Continual improvement
+   - [SELFI: Autonomous Self-Improvement with RL for Vision-Based Navigation around People](https://sites.google.com/view/selfi-rl/), CoRL 2024.
+
 
 ### Hybrid Approaches
 #### Model-based methods + RL
