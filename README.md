@@ -226,7 +226,10 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
 - [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
+- [CoNVOI: Context-aware Navigation using Vision Language Models in Outdoor and Indoor Environments](https://gamma.umd.edu/researchdirections/crowdmultiagent/convoi/), IROS 2024.
 - [OLiVia-Nav: An Online Lifelong Vision Language Approach for Mobile Robot Social Navigation](https://arxiv.org/abs/2409.13675), ICRA 2025.
+- [VLM-Social-Nav: Socially Aware Robot Navigation Through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), RA-L 2025.
+- [BehAV: Behavioral Rule Guided Autonomy Using VLMs for Robot Navigation in Outdoor Scenes](https://gamma.umd.edu/researchdirections/crowdmultiagent/behav/), ICRA 2025.
 
 ### Explainability and Trust
 - [Generating Causal Explanations of Vehicular Agent Behavioural Interactions with Learnt Reward Profiles](https://arxiv.org/abs/2503.14557), ICRA 2025.
