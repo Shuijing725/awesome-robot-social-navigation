@@ -223,6 +223,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Others
 - [Human-Robot Cooperative Distribution Coupling for Hamiltonian-Constrained Social Navigation](https://sites.google.com/view/NaviDIFF), ICRA 2025.
 - [CrowdSurfer: Sampling Optimization Augmented with Vector-Quantized Variational AutoEncoder for Dense Crowd Navigation](https://smart-wheelchair-rrc.github.io/CrowdSurfer-webpage/), ICRA 2025.
+- [Following Is All You Need: Robot Crowd Navigation Using People As Planners](https://arxiv.org/abs/2504.10828), RA-L 2025.
 
 ### Foundation Models for Social Navigation
 - [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
