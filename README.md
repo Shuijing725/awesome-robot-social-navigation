@@ -148,6 +148,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [SocialGAIL: Faithful Crowd Simulation for Social Robot Navigation](https://ieeexplore.ieee.org/document/10610371), ICRA 2024.
 - [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 - [Crowd Perception Communication-Based Multi- Agent Path Finding With Imitation Learning](https://ieeexplore.ieee.org/document/10669172), RA-L 2024.
+- [Ratatouille: Imitation Learning Ingredients for Real-world Social Robot Navigation](https://arxiv.org/abs/2509.17204), arXiv 2025.
 
 #### Reinforcement Learning
 - Domain randomization
