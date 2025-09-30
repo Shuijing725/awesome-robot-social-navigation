@@ -170,16 +170,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning](https://arxiv.org/abs/2010.08600), ICRA 2021.
   - [Towards Multi-Modal Perception-Based Navigation: A Deep Reinforcement Learning Method](https://ieeexplore.ieee.org/document/9372890), RA-L 2021.
   - [NavDreams: Towards Camera-Only RL Navigation Among Humans](https://arxiv.org/abs/2203.12299), IROS 2022.
-- Combining human trajectory prediction and robot planning
-  - (RGL) [Relational Graph Learning for Crowd Navigation](https://arxiv.org/abs/1909.13165), IROS 2020.
-  - [DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors](https://arxiv.org/abs/2002.03038), ICRA 2020.
-  - [Socially Aware Crowd Navigation with Multimodal Pedestrian Trajectory Prediction for Autonomous Vehicles](https://arxiv.org/abs/2011.11191), ITSC 2020.
-  - [Intent-Aware Pedestrian Prediction for Adaptive Crowd Navigation](https://intuitivecomputing.github.io/publications/2020-icra-katyal.pdf), ICRA 2020.
-  - [Path Planning in Dynamic Environments using Generative RNNs and Monte Carlo Tree Search](https://arxiv.org/abs/2001.11597), ICRA 2020.
-  - [Mobile Robot Navigation Using Learning-Based Method Based on Predictive State Representation in a Dynamic Environment](https://robotics.ait.kyushu-u.ac.jp/kurazume/papers/MatsumotoSII22.pdf), IEEE SII 2022.
-  - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home), ICRA 2023.
-  - [Stranger Danger! Identifying and Avoiding Unpredictable Pedestrians in RL-based Social Robot Navigation](https://people.eecs.berkeley.edu/~prabal/pubs/papers/pohland24stranger.pdf), arXiv 2024.
-  - [From Cognition to Precognition: A Future-Aware Framework for Social Navigation](https://zeying-gong.github.io/projects/falcon/), ICRA 2025.
+   
 - Constrained crowd navigation with both humans and obstacles
   - [Robot Navigation in Crowded Environments Using Deep Reinforcement Learning](https://ras.papercept.net/images/temp/IROS/files/0386.pdf), IROS 2020. 
   - DenseCAvoid, ICRA 2020.
@@ -238,6 +229,18 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 ### Explainability and Trust
 - [Generating Causal Explanations of Vehicular Agent Behavioural Interactions with Learnt Reward Profiles](https://arxiv.org/abs/2503.14557), ICRA 2025.
+
+### Combining human trajectory prediction and robot planning
+- (RGL) [Relational Graph Learning for Crowd Navigation](https://arxiv.org/abs/1909.13165), IROS 2020.
+- [DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors](https://arxiv.org/abs/2002.03038), ICRA 2020.
+- [Socially Aware Crowd Navigation with Multimodal Pedestrian Trajectory Prediction for Autonomous Vehicles](https://arxiv.org/abs/2011.11191), ITSC 2020.
+- [Intent-Aware Pedestrian Prediction for Adaptive Crowd Navigation](https://intuitivecomputing.github.io/publications/2020-icra-katyal.pdf), ICRA 2020.
+- [Path Planning in Dynamic Environments using Generative RNNs and Monte Carlo Tree Search](https://arxiv.org/abs/2001.11597), ICRA 2020.
+- [Mobile Robot Navigation Using Learning-Based Method Based on Predictive State Representation in a Dynamic Environment](https://robotics.ait.kyushu-u.ac.jp/kurazume/papers/MatsumotoSII22.pdf), IEEE SII 2022.
+- [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home), ICRA 2023.
+- [Stranger Danger! Identifying and Avoiding Unpredictable Pedestrians in RL-based Social Robot Navigation](https://people.eecs.berkeley.edu/~prabal/pubs/papers/pohland24stranger.pdf), arXiv 2024.
+- [Navigating the Human Maze: Real-Time Robot Pathfinding with Generative Imitation Learning](https://arxiv.org/abs/2408.03807), arXiv 2024.
+- [From Cognition to Precognition: A Future-Aware Framework for Social Navigation](https://zeying-gong.github.io/projects/falcon/), ICRA 2025.
 
 ------
 ## Environment Models
