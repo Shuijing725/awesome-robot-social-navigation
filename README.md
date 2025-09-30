@@ -281,6 +281,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [The 2nd Workshop on Social Robot Navigation: Advances and Evaluation](https://seanavbench23.pages.dev/), IROS 2023.
 - [The Last-Mile Robotics Workshop: Envisioning Effective, Sustainable and Human-Centric Delivery](https://www.lastmilerobotics.dfl.ae/), IROS 2023.
 - [Unsolved Problems in Social Robot Navigation](https://unsolvedsocialnav.org/), RSS 2024.
+- [Advances in Social Navigation: Planning, HRI and Beyond](https://socialnav2025.pages.dev/), ICRA 2025.
 
 ------
 ## References
