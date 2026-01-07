@@ -218,14 +218,19 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Following Is All You Need: Robot Crowd Navigation Using People As Planners](https://arxiv.org/abs/2504.10828), RA-L 2025.
 
 ### Foundation Models for Social Navigation
-- [SRLM: Human-in-Loop Interactive Social Robot Navigation with Large Language Model and Deep Reinforcement Learning](https://arxiv.org/abs/2403.15648), arXiv 2024.
 - [Socially Aware Robot Navigation through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), arXiv 2024.
 - [GSON: A Group-based Social Navigation Framework with Large Multimodal Model](https://arxiv.org/pdf/2409.18084), arXiv 2024.
-- [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), arXiv 2024.
 - [CoNVOI: Context-aware Navigation using Vision Language Models in Outdoor and Indoor Environments](https://gamma.umd.edu/researchdirections/crowdmultiagent/convoi/), IROS 2024.
 - [OLiVia-Nav: An Online Lifelong Vision Language Approach for Mobile Robot Social Navigation](https://arxiv.org/abs/2409.13675), ICRA 2025.
 - [VLM-Social-Nav: Socially Aware Robot Navigation Through Scoring Using Vision-Language Models](https://arxiv.org/abs/2404.00210), RA-L 2025.
 - [BehAV: Behavioral Rule Guided Autonomy Using VLMs for Robot Navigation in Outdoor Scenes](https://gamma.umd.edu/researchdirections/crowdmultiagent/behav/), ICRA 2025.
+- [Social-LLaVA: Enhancing Robot Navigation through Human-Language Reasoning in Social Spaces](https://cs.gmu.edu/~xiao/papers/social_llava.pdf), IROS 2025.
+- [USER-VLM 360: Personalized Vision Language Models with User-aware Tuning for Social Human-Robot Interactions](https://dl.acm.org/doi/10.1145/3716553.3750767), ICMI 2025.
+- [Vi-LAD: Vision-Language Attention Distillation for Socially-Aware Robot Navigation in Dynamic Environments](https://gamma.umd.edu/researchdirections/crowdmultiagent/vilad/), arXiv 2025.
+- [AutoSpatial: Visual-Language Reasoning for Social Robot Navigation through Efficient Spatial Reasoning Learning](https://arxiv.org/abs/2503.07557), arXiv 2025.
+- [GSON: A Group-Based Social Navigation Framework With Large Multimodal Model](https://arxiv.org/abs/2409.18084), RA-L 2025.
+#### Foundation models + RL
+- [Unifying Large Language Model and Deep Reinforcement Learning for Human-in-Loop Interactive Socially-aware Navigation](https://arxiv.org/abs/2403.15648), arXiv 2025.
 
 ### Explainability and Trust
 - [Generating Causal Explanations of Vehicular Agent Behavioural Interactions with Learnt Reward Profiles](https://arxiv.org/abs/2503.14557), ICRA 2025.
