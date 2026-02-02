@@ -43,6 +43,7 @@ Feel Free to ⭐️ this repo for future updates 📲
 ------
 ## Datasets and Benchmarks
 Note that lots of datasets or benchmarks are proposed as a part of individual papers. Here I did not include them, and only list works that solely focus on datasets or benchmarks.
+
 ### Real-world Datasets
 - [Experimental Analysis of Sample-Based Maps for Long-Term SLAM](https://journals.sagepub.com/doi/10.1177/0278364908096286), IJRR 2009.
 - [Long-term experiments with an adaptive spherical view representation for navigation in changing environments](https://www.researchgate.net/publication/215639692_Long-Term_Experiments_with_an_Adaptive_Spherical_View_Representation_for_Navigation_in_Changing_Environments), Robotics and Automation Systems 2011.
@@ -56,7 +57,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - (SCAND) [Socially CompliAnt Navigation Dataset](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), RA-L 2022.
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
 - [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024.
-- [Semantic2D: A Semantic Dataset for 2D Lidar Semantic Segmentation](https://arxiv.org/abs/2409.09899), arXiv 2024.
+- [Semantic2D: Enabling Semantic Scene Understanding with 2D Lidar Alone](https://arxiv.org/abs/2409.09899), arXiv 2026.
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
@@ -67,9 +68,11 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [SocNav1: A Dataset to Benchmark and Learn Social Navigation Conventions](https://github.com/gnns4hri/SocNav1), MDPI 2019.
   - [SocNav2](https://github.com/jginesclavero/social_nav2)
   - [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://github.com/CMU-TBD/SocNavBench), THRI 2022.
-  - [ir-sim](https://github.com/hanruihua/ir-sim): A python based light weight robot simulator for the algorithm development of robotics navigation, control, and learning.
+  - [ir-sim](https://github.com/hanruihua/ir-sim): A python based light weight robot simulator for the algorithm development of robotics navigation, control, and learning.\
+    
 - 3D simulators
   - [Pedsim-ROS](https://github.com/srl-freiburg/pedsim_ros)
+  - [pedsim_ros_with_gazebo](https://github.com/TempleRAIL/pedsim_ros_with_gazebo)
   - [AI Habitat 3.0](https://aihabitat.org/habitat3/)
   - [iGibson](https://github.com/StanfordVL/iGibsonChallenge2021)
   - [gym_ped_sim](https://github.com/onlytailei/gym_ped_sim)
@@ -118,6 +121,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 #### Sample-based Planning
 - [Robot Local Planner: A Periodic Sampling-Based Motion Planner with Minimal Waypoints for Home Environments](https://x.com/TOYOTA_FRC/status/1924304787010654377), ICRA 2025.
+  
 #### Game Theory
 - [Mixed-Strategy Nash Equilibrium for Crowd Navigation](https://arxiv.org/abs/2403.01537), arXiv 2024.
 - [Inferring Occluded Agent Behavior in Dynamic Games from Noise Corrupted Observations](https://arxiv.org/abs/2303.09744), RA-L 2024.
@@ -142,7 +146,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Deep-Learned Collision Avoidance Policy for Distributed Multi-Agent Navigation](https://arxiv.org/abs/1609.06838), RA-L 2017.
 - [Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning](https://arxiv.org/abs/1710.02543), ICRA 2018.
 - [Deep local trajectory replanning and control for robot navigation](https://arxiv.org/abs/1905.05279), ICRA 2019.
-- [Towards Safe Navigation Through Crowded Dynamic Environments](https://sites.temple.edu/trail/files/2021/11/XieXinDamesIROS2021.pdf), IROS 2021.
+- [Towards Safe Navigation Through Crowded Dynamic Environments](https://doi.org/10.1109/IROS51168.2021.9636102), IROS 2021.
 - [Towards Imitation Learning in Real World Unstructured Social Mini-Games in Pedestrian Crowds](https://arxiv.org/abs/2405.16439), arXiv 2024.
 - [SACSoN: Scalable Autonomous Control for Social Navigation](https://sites.google.com/view/SACSoN-review), RA-L 2023.
 - [SocialGAIL: Faithful Crowd Simulation for Social Robot Navigation](https://ieeexplore.ieee.org/document/10610371), ICRA 2024.
@@ -153,6 +157,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 #### Reinforcement Learning
 - Domain randomization
   - [Domain Randomization for Learning to Navigate in Human Environments](https://ieeexplore.ieee.org/document/10811861), RA-L 2025.
+    
 - Using detected pedestrian states as input
   - (CADRL) [Decentralized noncommunicating multiagent collision avoidance with deep reinforcement learning](https://arxiv.org/abs/1609.07845), ICRA 2017.
   - [Socially aware motion planning with deep reinforcement learning](https://arxiv.org/abs/1703.08862), IROS 2017.
@@ -176,24 +181,26 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - DenseCAvoid, ICRA 2020.
   - Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning, ICRA 2021.
   - [NavRep: Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/abs/2012.04406), ICRA 2021.
-  - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
+  - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://doi.org/10.1109/TRO.2023.3257549) ([arXiv](https://arxiv.org/pdf/2301.06512.pdf)), T-RO 2023.
   - [Sample-Efficient Learning-Based Dynamic Environment Navigation With Transferring Experience From Optimization-Based Planner](https://ieeexplore.ieee.org/document/10552894), RA-L 2024.
+    
 - Reward function design
   - [Human-Inspired Multi-Agent Navigation using Knowledge Distillation](https://github.com/xupei0610/KDMA), IROS 2021.
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
   - [Reinforcement Learned Distributed Multi-Robot Navigation With Reciprocal Velocity Obstacle Shaped Rewards](https://github.com/hanruihua/rl_rvo_nav), RA-L 2022.
-  - DRL-VO, T-RO 2023.
+  - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://doi.org/10.1109/TRO.2023.3257549) ([arXiv](https://arxiv.org/pdf/2301.06512.pdf)), T-RO 2023.
   - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
   - [Relative Velocity-Based Reward Model for Socially-Aware Navigation with Deep Reinforcement Learning](https://arxiv.org/abs/2402.14569v2), ICRA 2025.
+    
 - Using graph attention/transformer network to model interactions
   - RGL, IROS 2020.
   - DS-RNN, ICRA 2021.
   - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
   - [ST<sup>2</sup>: Spatial-Temporal State Transformer for Crowd-Aware Autonomous Navigation](https://ieeexplore.ieee.org/document/10007923), RA-L 2023.
-  - [DRL-VO](https://github.com/TempleRAIL/drl_vo_nav), T-RO 2023.
   - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://arxiv.org/pdf/2203.01821), ICRA 2023.
   - [Sample-Efficient Learning-Based Dynamic Environment Navigation With Transferring Experience From Optimization-Based Planner](https://ieeexplore.ieee.org/document/10552894), RA-L 2024.
   - [Socially aware object goal navigation with heterogeneous scene representation learning](https://ieeexplore.ieee.org/document/10556584), RA-L 2024.
+    
  - Continual improvement
    - [SELFI: Autonomous Self-Improvement with RL for Vision-Based Navigation around People](https://sites.google.com/view/selfi-rl/), CoRL 2024.
 
@@ -201,6 +208,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 ### Hybrid Approaches
 #### Model-based methods + RL
 - [Relaxing the Limitations of the Optimal Reciprocal Collision Avoidance Algorithm for Mobile Robots in Crowds](https://ieeexplore.ieee.org/document/10504974), RA-L 2024.
+- [SCOPE: Stochastic Cartographic Occupancy Prediction Engine for Uncertainty-Aware Dynamic Navigation](https://doi.org/10.1109/TRO.2025.3578234) ([arXiv](https://arxiv.org/abs/2407.00144.pdf)), T-RO 2025.
 
 #### Sample-based planning + Imitation Learning
 - [Deep Local Trajectory Replanning and Control for Robot Navigation](https://arxiv.org/abs/1905.05279), ICRA 2019.
@@ -229,6 +237,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - [Vi-LAD: Vision-Language Attention Distillation for Socially-Aware Robot Navigation in Dynamic Environments](https://gamma.umd.edu/researchdirections/crowdmultiagent/vilad/), arXiv 2025.
 - [AutoSpatial: Visual-Language Reasoning for Social Robot Navigation through Efficient Spatial Reasoning Learning](https://arxiv.org/abs/2503.07557), arXiv 2025.
 - [GSON: A Group-Based Social Navigation Framework With Large Multimodal Model](https://arxiv.org/abs/2409.18084), RA-L 2025.
+  
 #### Foundation models + RL
 - [Unifying Large Language Model and Deep Reinforcement Learning for Human-in-Loop Interactive Socially-aware Navigation](https://arxiv.org/abs/2403.15648), arXiv 2025.
 
@@ -262,15 +271,18 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 
 ### Dynamic Scene Modeling/Evaluation
 #### Occupancy map prediction
-- [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://arxiv.org/abs/2210.08577), CoRL 2023.
-- [SCOPE: Stochastic Cartographic Occupancy Prediction Engine for Uncertainty-Aware Dynamic Navigation](https://arxiv.org/abs/2407.00144), arXiv 2024.
+- [Stochastic Occupancy Grid Map Prediction in Dynamic Scenes](https://proceedings.mlr.press/v229/xie23a/xie23a.pdf) ([arXiv](https://arxiv.org/abs/2210.08577)), CoRL 2023.
+- [SCOPE: Stochastic Cartographic Occupancy Prediction Engine for Uncertainty-Aware Dynamic Navigation](https://doi.org/10.1109/TRO.2025.3578234) ([arXiv](https://arxiv.org/abs/2407.00144.pdf)), T-RO 2025.
+  
 #### Occlusion inference
 - [Occlusion-Aware Crowd Navigation Using People as Sensors](https://arxiv.org/abs/2210.00552), ICRA 2023.
 - [RMRL: Robot Navigation in Crowd Environments With Risk Map-Based Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/10271559), RA-L 2024.
 - [Inferring Occluded Agent Behavior in Dynamic Games from Noise Corrupted Observations](https://arxiv.org/abs/2303.09744), RA-L 2024.
+  
 #### Map generation
 - (SNGNN2D) [Generation of Human-aware Navigation Maps using Graph Neural Networks](https://arxiv.org/abs/2011.05180), International Conference on Innovative Techniques and Applications of Artificial Intelligence 2021.
-- [Fast Online Learning of CLiFF-maps in Changing Environments](https://arxiv.org/abs/2410.12237), ICRA 2025. 
+- [Fast Online Learning of CLiFF-maps in Changing Environments](https://arxiv.org/abs/2410.12237), ICRA 2025.
+  
 #### Complexity evaluation
 - [Characterizing the Complexity of Social Robot Navigation Scenarios](https://arxiv.org/abs/2405.11410), RA-L 2025. 
 
@@ -295,6 +307,6 @@ Part of this repo is adapted from the literature review of the following papers/
 - S. Liu, P. Chang, W. Liang, N. Chakraborty, and K. Driggs-Campbell, "[Decentralized Structural-RNN for Robot Crowd Navigation with Deep Reinforcement Learning](https://sites.google.com/illinois.edu/crowdnav-dsrnn/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2023, pp. 3517-3524.
 - S. Liu, P. Chang, Z. Huang, N. Chakraborty, K. Hong, W. Liang, D. Livingston McPherson, J. Geng, and K. Driggs-Campbell, "[Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://sites.google.com/view/intention-aware-crowdnav/home)," in IEEE International Conference on Robotics and Automation (ICRA), 2021, pp. 12015-12021.
 - H. Karnan, A. Nair, X. Xiao, G. Warnell, S. Pirk, A. Toshev, J. Hart, J. Biswas, and P. Stone, "[Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html)," IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 11807-11814, 2022.
-- Z. Xie and P. Dames, "[DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://github.com/TempleRAIL/drl_vo_nav)," IEEE Transactions on Robotics, vol. 39, no. 4, pp. 2700-2719, 2023.
+- Z. Xie and P. Dames, "[DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://doi.org/10.1109/TRO.2023.3257549)," IEEE Transactions on Robotics, vol. 39, no. 4, pp. 2700-2719, 2023.
 - [learning-based-navigation-list](https://github.com/CUN-bjy/learning-based-navigation-papers/), Github.
 - [ICRA 2025 Paper List](https://github.com/DoongLi/ICRA2025-Paper-List), Github.
