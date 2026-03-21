@@ -189,7 +189,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles](https://ieeexplore.ieee.org/document/9561462), ICRA 2021.
   - [Reinforcement Learned Distributed Multi-Robot Navigation With Reciprocal Velocity Obstacle Shaped Rewards](https://github.com/hanruihua/rl_rvo_nav), RA-L 2022.
   - [DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles](https://doi.org/10.1109/TRO.2023.3257549) ([arXiv](https://arxiv.org/pdf/2301.06512.pdf)), T-RO 2023.
-  - Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph, ICRA 2023.
+  - [Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph](https://ieeexplore.ieee.org/document/10160660), ICRA 2023.
   - [Relative Velocity-Based Reward Model for Socially-Aware Navigation with Deep Reinforcement Learning](https://arxiv.org/abs/2402.14569v2), ICRA 2025.
     
 - Using graph attention/transformer network to model interactions
