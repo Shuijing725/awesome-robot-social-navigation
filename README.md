@@ -58,6 +58,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - (MuSoHu) [Toward Human-Like Social Robot Navigation: A Large-Scale, Multi-Modal, Social Human Navigation Dataset](https://cs.gmu.edu/~xiao/Research/MuSoHu/), IROS 2023.
 - [TBD Pedestrian Dataset](https://arxiv.org/abs/2309.17187), ICRA 2024.
 - [Semantic2D: Enabling Semantic Scene Understanding with 2D Lidar Alone](https://arxiv.org/abs/2409.09899), arXiv 2026.
+- (NavWareSet) [A dataset of socially compliant and non-compliant robot navigation trajectories](https://anr-navware.github.io/navwareset/), IJRR 2026.
 
 ### Simulators & Simulated Datasets
 **Review**: [A Review of Software for Crowd Simulation](https://urban-analytics.github.io/dust/docs/ped_sim_review.pdf).
