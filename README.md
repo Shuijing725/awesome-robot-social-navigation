@@ -119,6 +119,8 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
 - (Social Force) [Social Force Model for Pedestrian Dynamics](https://arxiv.org/abs/cond-mat/9805244), Physics Review 1995.
 - [Robot Companion: A Social-Force based approach with Human Awareness-Navigation in Crowded Environments](https://digital.csic.es/bitstream/10261/96448/4/Robot%20companion.pdf), IROS 2013.
 - [Socially-Aware Reactive Obstacle Avoidance Strategy Based on Limit Cycle](https://ieeexplore.ieee.org/abstract/document/9013059), RA-L 2020.
+- [Social APF-RL: Safe Mapless Navigation in Unknown & Human-Populated Environments](https://ieeexplore.ieee.org/document/10256274), ECMR 2023.
+  - Base framework: [APF-RL: Safe Mapless Navigation in Unknown Environments](https://ieeexplore.ieee.org/document/9811537), ICRA 2022.
 
 #### Sample-based Planning
 - [Robot Local Planner: A Periodic Sampling-Based Motion Planner with Minimal Waypoints for Home Environments](https://x.com/TOYOTA_FRC/status/1924304787010654377), ICRA 2025.
