@@ -81,6 +81,7 @@ Note that lots of datasets or benchmarks are proposed as a part of individual pa
   - [HuNavSim: A ROS 2 Human Navigation Simulator for Benchmarking Human-Aware Robot Navigation](https://arxiv.org/pdf/2305.01303), RAL 2023.
   - [Arena-Rosnav 3.0: A Comprehensive Development and Benchmarking Platform for Navigation](https://github.com/Arena-Rosnav), RSS 2024.
   - [Arena 4.0: A Comprehensive ROS2 Development and Benchmarking Platform for Human-centric Navigation Using Generative-Model-based Environment Generation](https://arxiv.org/pdf/2409.12471), ICRA 2025.
+  - [Street Crossing Challenge: real crowd replayed in an NVIDIA Isaac Sim twin of a Jersey City crosswalk](https://huggingface.co/spaces/roaddata-ai/street-crossing-challenge), with the [crossing twin and runner](https://huggingface.co/datasets/roaddata-ai/street-robots-crossing-twin).
 ------
 ## Methods
 ### Model-based Methods
